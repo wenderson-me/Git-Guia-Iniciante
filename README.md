@@ -29,12 +29,28 @@ https://git-scm.com/download
 - [x] Você quer adicionar seu projeto na nuvem.
 # git remote add origin wenderson-me/Git-Guia-Iniciante.git
 # git push -u origin master
+# git config credencial.helper store - evitar de inserir email e senha a todo push
 
+- [x] Você vai pegar um repositório já iniciado, para trabalhar com o time
+- [x] Você precia resolver um conflito
+- [x] Antes de enviar a resolução, precisamos atualizar o projeto local
 
- 
-- `git init` // inicia a linha do tempo
-- `git add` // adiciona ou atualiza mudanças do para irem para linha do tempo
-- `git commit`// adiciona um ponto na linha do tempo
-- `git log` // visualiza os ponto na linha do tempo / commit
-- `git status` // informa o estado das alterações do nosso projeto
-- `git show` // apresenta determinado ponto na historia
+- [x] Você precisa voltar um arquivo para um determinado momento da linha do tempo
+# git checkout dbaa19b2e64e3d2ae4af5116c0eed5fa00a3f888 --index.html
+
+- [] Você precisa recuperar algo deletado
+# git checkout -- 
+# ou
+# git checkout dbaa19b2e64e3d2ae4af5116c0eed5fa00a3f888 -- index.html
+
+* `git init` // inicia a linha do tempo
+* `git add` // adiciona ou atualiza mudanças do para irem para linha do tempo
+* `git commit`// adiciona um ponto na linha do tempo
+* `git log` // visualiza os ponto na linha do tempo / commit
+* `git status` // informa o estado das alterações do nosso projeto
+* `git show` // apresenta determinado ponto na historia
+* `git branch` // gerencia novas linhas do tempo
+* `git merge` // unir linhas do tempo
+* `git push` // envia alterações locais para o repositório remoto
+* `git clone` // clonar um projeto / repositório
+* `git pull` // puxa do repositório remoto 
